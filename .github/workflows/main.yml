@@ -3,10 +3,10 @@ name: Ensure Clean Notebooks
 on:
   push:
     paths:
-      - '*.ipynb' # Trigger only when .ipynb files are modified
+      - '**/*.ipynb' # Trigger only when .ipynb files are modified
   pull_request:
     paths:
-      - '*.ipynb' # Trigger only when .ipynb files are modified
+      - '**/*.ipynb' # Trigger only when .ipynb files are modified
 
 jobs:
   clean-notebooks:

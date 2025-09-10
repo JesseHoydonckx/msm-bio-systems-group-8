@@ -20,7 +20,7 @@ jobs:
         run: |
           pip install nbstripout
           nbstripout --install
-          find . -name "*.ipynb" -exec nbstripout {} \;
+          find . -name "**/*.ipynb" -exec nbstripout {} \;
 
       - name: Ensure clean notebooks
         uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1

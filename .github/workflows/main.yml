@@ -15,12 +15,23 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Strip notebook outputs
         run: |
           pip install nbstripout
           nbstripout --install
           find . -name "**/*.ipynb" -exec nbstripout {} \;
+
+      - name: Commit and push cleaned notebooks
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add '**/*.ipynb'
+          git diff --cached --quiet || git commit -m "chore: clean notebook outputs [automated]"
+          git push
 
       - name: Ensure clean notebooks
         uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1

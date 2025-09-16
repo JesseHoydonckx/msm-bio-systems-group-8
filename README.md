@@ -71,3 +71,13 @@ Made changes.
 
 The README file has been created with the requested content, including the objective, instructions, and dependencies. Let me know if you need further adjustments or fixes for the linting issues.
 ````
+
+
+# Assignment 2: Epidemiological models
+
+## Group contributions
+
+Member | Tihon | Valentino | Jesse
+-|-|-|-
+Contribution | Q2 | Q3 | Q1 
+Points | 30 | 20 | 50

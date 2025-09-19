@@ -1,83 +1,33 @@
-# Assignment 1: Metabolic Modelling
+# Multi-Scale Modeling of Biological Systems - Group 8
 
-## Objective
+This repository contains the work completed by Group 8 for the course *Multi-Scale Modeling of Biological Systems*. It includes solutions and documentation for the assignments given throughout the course. Each assignment focuses on a specific aspect of biological systems modeling, and the contributions of each group member are detailed within.
 
-The objective of this assignment is to explore enzyme activity-constrained metabolic modeling using COBRApy. The tasks include analyzing reaction fluxes, implementing maximal reaction activity data, performing Flux Variability Analysis (FVA), and optimizing biomass production. The assignment aims to deepen understanding of metabolic networks and their constraints.
+## Assignments Overview
 
-## Instructions to Run the Code
+### Assignment 1: Metabolic Modelling
 
-1. **Setup Environment**:
-   - Ensure Python is installed on your system.
-   - Install the required Python libraries using the following command:
+This assignment involves modeling metabolic pathways and analyzing their behavior under different conditions.  
+[Read more about Assignment 1](./assignment-1/README.md)
 
-        ```bash
-        pip install cobra pandas
-        ```
-
-2. **Prepare Input Files**:
-   - Place the `e_coli_core.json` file (E. coli core model) in the same directory as the notebook.
-   - Ensure the `e_coli_core_expression.csv` file (containing estimated maximal activity data) is also in the same directory.
-
-3. **Run the Notebook**:
-   - Open the `assignment-1.ipynb` notebook in a Jupyter environment.
-   - Execute the cells sequentially to complete the tasks.
-
-4. **Output**:
-   - The notebook will print tables and results for each task, including reaction bounds, FVA results, and biomass optimization outcomes.
-
-## Notes
-
-- The specific instruction for this assignment can be found in `KEN3170_Assignment_Metabolic_Modeling_06_09_2025`.
-- The glucose exchange reaction and ATPM energy maintenance reaction are handled with specific constraints as described in Task 2.
-- The notebook includes detailed explanations for each task, providing insights into the metabolic model's behavior.
-- This folder contains `assignment-1.pdf`. This is the exported notebook with our final outputs. In case any issues arise while running the notebook this pdf serves as a backup.
-
-## Dependencies
-
-- Python 3.7 or higher
-- COBRApy
-- pandas
-- CSV file containing estimated maximal activity data (`e_coli_core_expression.csv`)
-- JSON file for the E. coli core model (`e_coli_core.json`)
-
-## Group contributions
+#### Group Contributions
 
 Member | Tihon | Valentino | Jesse
 -|-|-|-
-Contribution | Q2 | Q1, Q3 | Q4, README 
-Points | 30 | 45 | 25, \
+Contribution | Q2 | Q1, Q3 | Q4
+Points | 30 | 45 | 25
 
-The distribution of task was decided unanimously using a Whatsapp group.
+### Assignment 2: Epidemiological Models
+
+This assignment focuses on modeling the spread of diseases using epidemiological frameworks.  
+[Read more about Assignment 2](./assignment-2/README.md)
+
+#### Group Contributions
+
+Member | Tihon | Valentino | Jesse
+-|-|-|-
+Contribution | Q2 | Q3 | Q1
+Points | 30 | 20 | 50
 
 ## Use of Generative AI Tools
 
 We used generative AI tools to help write and proofread this README file. AI was only used for documentation support, not for generating code or analysis. All generated output has been reviewed and modified by a human.
-
-### Recorded conversations
-
-`JesseHoydonckx`:
-
-```md
-Create a readme file for this assignment. The README should:
-- Describe the objective of the assignment
-- Provide instructions on how to run your code
-- Include any other relevant notes or dependencies
-```
-
-`GitHub Copilot`: 
-
-````md
-Made changes.
-
-The README file has been created with the requested content, including the objective, instructions, and dependencies. Let me know if you need further adjustments or fixes for the linting issues.
-````
-
-
-# Assignment 2: Epidemiological models
-
-## Group contributions
-
-Member | Tihon | Valentino | Jesse
--|-|-|-
-Contribution | Q2 | Q3 | Q1 
-Points | 30 | 20 | 50

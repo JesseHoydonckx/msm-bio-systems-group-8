@@ -44,7 +44,7 @@ The objective of this assignment is to explore enzyme activity-constrained metab
 
 Member | Tihon | Valentino | Jesse
 -|-|-|-
-Contribution | Q2 | Q1, Q3 | Q4, README 
+Contribution | Q2 | Q1, Q3 | Q4, README
 Points | 30 | 45 | 25, \
 
 The distribution of task was decided unanimously using a Whatsapp group.
@@ -64,7 +64,7 @@ Create a readme file for this assignment. The README should:
 - Include any other relevant notes or dependencies
 ```
 
-`GitHub Copilot`: 
+`GitHub Copilot`:
 
 ````md
 Made changes.

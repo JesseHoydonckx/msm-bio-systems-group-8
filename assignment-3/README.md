@@ -35,4 +35,11 @@ In this simulation, the feedback loops are what allow the system to have multipl
 If the network were a tree instead, you could simply evaluate if each gene is active starting from the top of the tree going downwards. No simulation would be necessary to determine the final state as you could solve for it analytically. However, such a network would be a poor model for most biological networks as it wouldn't be able to model mechanisms with cycles (eg circadian rhythm) and memory.
 
 ##### 3.3 What are the limitations of this Boolean network model? Discuss 3 specific limitations.
-- 
+
+This boolean network model is a good baseline to get some insights into the cell's regulatory system. Despite this limitations arrise due to the level of abstraction and simplification that we did to model the system.
+
+A first limitation is in the setup of the nodes being strictly ON or in an OFF state, for example node p53 and MYC. In a real biological cell this would most likely not be the case but rather be a value inside of a range in terms of concentration and activity levels. A clear example would be P53 which it's cell response is dose dependent, so a low dose might not trigger the cell death but in the case of our model it triggers immediately due to the binary nature of the setup. 
+
+A second limitation is the assumption that the components in the network update at the same time. As we use the function update_synchronous, this assumes that every element updates at the exact same time in perfect synch. Again in a real world biological system this would not be the case as some reactions happen quicker or slower. Theoretically this could be integrated into the model but would make it much more complex but might offer more accurate insights. 
+
+A third limitation of our simplified model is the abstraction of time. More specificaly the attractor analysis we conducted shows us the final state of the cell but does not tell us how quickly or slowly this was done. This is quite important as we can see in the Stressed Cell scenario, that damaged DNA can lead to cell death. There's no difference in the model between a slow reaction (aptosis in a few days) and a rapid one which would occur in a few minutes or hours. This is quite important as a cell that has some DNA damage might be able to split in time and pass on mutations before cell death occurs. 

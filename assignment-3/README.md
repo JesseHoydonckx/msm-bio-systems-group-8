@@ -52,4 +52,4 @@ The code for this assignemnt is all contained in the BooleanModeling.ipynb noteb
 
 Member | Tihon | Valentino | Jesse
 -|-|-|-
-Contribution | Q3.3 | Q3.1 Q3.2 | simulation code
+Contribution | Q3.1 & Q3.2 | Q3.3 | simulation code

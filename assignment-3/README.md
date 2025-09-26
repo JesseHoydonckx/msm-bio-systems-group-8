@@ -43,3 +43,13 @@ A first limitation is in the setup of the nodes being strictly ON or in an OFF s
 A second limitation is the assumption that the components in the network update at the same time. As we use the function update_synchronous, this assumes that every element updates at the exact same time in perfect synch. Again in a real world biological system this would not be the case as some reactions happen quicker or slower. Theoretically this could be integrated into the model but would make it much more complex but might offer more accurate insights. 
 
 A third limitation of our simplified model is the abstraction of time. More specificaly the attractor analysis we conducted shows us the final state of the cell but does not tell us how quickly or slowly this was done. This is quite important as we can see in the Stressed Cell scenario, that damaged DNA can lead to cell death. There's no difference in the model between a slow reaction (aptosis in a few days) and a rapid one which would occur in a few minutes or hours. This is quite important as a cell that has some DNA damage might be able to split in time and pass on mutations before cell death occurs. 
+
+## Running code
+
+The code for this assignemnt is all contained in the BooleanModeling.ipynb notebook. Cells are intended to be run sequentially.
+
+## Contributions
+
+Member | Tihon | Valentino | Jesse
+-|-|-|-
+Contribution | Q3.3 | Q3.1 Q3.2 | simulation code

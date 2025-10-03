@@ -12,6 +12,17 @@ Open the model and run it – as it is – for 4h. What is happening? What do yo
 | 3     | ![after 3 hour](./screenshots/q1.state3.png)          | Pathogen infects approximately 1/3 of the cell. Some infected cells take on irregular shapes and cell walls are weak.
 | 4     | ![after 4 hour](./screenshots/q1.state4.png)          | More cells are infected, with the integrity of the cell walls for infected cells being significantly compromised. There is a clear difference in structure between the healthy and infected cells.
 
+# Question 2:
+
+CellHouseKeeping function:
+The function manages the life cycle of a cell by using growth and division.
+Growth: It's instructions are to target the growth of EnlargeTargetArea. This is done directly through the concentration of Chemical(0) (Auxin). The higher this rate is the faster the cell grows. 
+Division: Using a loop we continously check the expansion of the cell if through the growth step described before we see that the current area goes above a certain threshold (in this case rel_cell_div_threshold) the code first resets Chemical(0) to zero and then initiates cell division with c->Divide(). 
+
+# Question 3:
+
+![sketch completed](sketch_completed.png)
+
 # Question 4:
 
 ## Comparison of Diffusion Coefficients

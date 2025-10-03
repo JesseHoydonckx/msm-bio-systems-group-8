@@ -38,8 +38,7 @@ The objective of this assignment is to analyze a model of pathogen infection in 
 
 Member | Tihon | Valentino | Jesse
 -|-|-|-
-Contribution | Q2 | Q3 | Q1
-Points | 30 | 20 | 50
+Contribution | Q5 | Q2, Q3 | Q1, Q4
 
 The distribution of tasks was decided unanimously using a WhatsApp group.
 

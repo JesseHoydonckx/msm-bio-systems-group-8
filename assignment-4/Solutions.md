@@ -1,4 +1,4 @@
-# Question 1: solutions
+# Question 1:
 
 Open the model and run it – as it is – for 4h. What is happening? What do you observe?
 
